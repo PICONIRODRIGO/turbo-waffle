@@ -4,7 +4,204 @@
     # A directory to store and save the cache
     path: 
     # An explicit key for restoring and saving the cache
-    key: 
+    key: 23/05/20 20:04:35
+reason : debug0x4f4c
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:6082)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:52)
+20:04:37  2023-05-20 20:04:37-0300 |  REBOOT  |       | REASON: debug0x4f4c
+20:04:37  terminating init service start
+20:04:38  terminating init service end
+20:04:38  volume shutdown start
+20:04:38  volume shutdown end
+2023-05-20 20:05:27-0300 |    ON    | RP    | G780FXXSBFWD1 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [553]
+
+2023-05-20 21:27:29-0300 |    ON    | MP    | G780FXXSBFWD1 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [554]
+
+23/05/20 22:03:05
+reason : RamPlusChanged
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:6082)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:52)
+22:03:07  2023-05-20 22:03:07-0300 |  REBOOT  |       | REASON: RamPlusChanged
+22:03:07  terminating init service start
+22:03:08  terminating init service end
+22:03:08  volume shutdown start
+22:03:08  volume shutdown end
+2023-05-20 22:04:16-0300 |    ON    | RP    | G780FXXSBFWD1 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [555]
+
+23/05/20 22:16:11
+reason : RamPlusChanged
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:6082)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:52)
+22:16:14  2023-05-20 22:16:14-0300 |  REBOOT  |       | REASON: RamPlusChanged
+22:16:14  terminating init service start
+22:16:15  terminating init service end
+22:16:15  volume shutdown start
+22:16:16  volume shutdown end
+2023-05-20 22:18:16-0300 |    ON    | RP    | G780FXXSBFWD1 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [556]
+
+2023-05-21 02:37:55+0000 |          | NP    | OFFSRC:: PWRHOLD / ONSRC:: ACOKB / RSTSTAT:: PINRESET PORESET / RCNT: - / PC: - LR: - / 3994000(23%) 
+
+2023-05-21 02:37:55+0000 |   LPM    |
+
+2023-05-20 23:39:15-0300 |    ON    | RP    | G780FXXSBFWD1 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [563]
+
+23/05/21 01:02:54
+reason : userrequested
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:240)
+	at com.android.server.statusbar.StatusBarManagerService.lambda$shutdown$4(StatusBarManagerService.java:2210)
+	at com.android.server.statusbar.StatusBarManagerService.$r8$lambda$2ndFA8HNezCsgX2sySFgr4QHJWQ(Unknown Source:0)
+	at com.android.server.statusbar.StatusBarManagerService$$ExternalSyntheticLambda8.run(Unknown Source:2)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at com.android.server.SystemServer.run(SystemServer.java:1346)
+	at com.android.server.SystemServer.main(SystemServer.java:989)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+01:02:57  2023-05-21 01:02:57-0300 | SHUTDOWN |       | REASON: userrequested
+01:02:57  terminating init service start
+01:02:58  terminating init service end
+01:02:58  volume shutdown start
+01:02:59  volume shutdown end
+2023-05-21 01:14:09-0300 |    ON    | NP    | G780FXXSBFWD1 / OFFSRC:: PWRHOLD / ONSRC:: PWRON / RSTSTAT:: PINRESET PORESET [564]
+
+23/05/21 01:14:17
+reason : recovery-update
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:6082)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:52)
+01:14:27  2023-05-21 01:14:27-0300 |  REBOOT  |       | REASON: recovery
+01:14:27  terminating init service start
+01:14:28  terminating init service end
+01:14:28  volume shutdown start
+01:14:28  volume shutdown end
+2023-05-21 01:29:46-0300 |    ON    | RP    | G780FXXUBFWD2 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [567]
+
+23/05/21 02:45:30
+reason : RamPlusChanged
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:6078)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:52)
+02:45:33  2023-05-21 02:45:33-0300 |  REBOOT  |       | REASON: RamPlusChanged
+02:45:33  terminating init service start
+02:45:34  terminating init service end
+02:45:34  volume shutdown start
+02:45:34  volume shutdown end
+2023-05-21 02:46:28-0300 |    ON    | RP    | G780FXXUBFWD2 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [568]
+
+23/05/21 03:50:10
+reason : RamPlusChanged
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:6078)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:52)
+03:50:13  2023-05-21 03:50:13-0300 |  REBOOT  |       | REASON: RamPlusChanged
+03:50:13  terminating init service start
+03:50:17  terminating init service end
+03:50:17  volume shutdown start
+03:50:17  volume shutdown end
+2023-05-21 03:52:04-0300 |    ON    | RP    | G780FXXUBFWD2 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [569]
+
+23/05/21 04:06:25
+reason : forceupload0x5
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.power.PowerManagerService$2.run(PowerManagerService.java:6078)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+	at com.android.server.UiThread.run(UiThread.java:52)
+04:06:28  2023-05-21 04:06:28-0300 |  REBOOT  |       | REASON: forceupload0x5
+04:06:28  terminating init service start
+04:06:29  terminating init service end
+04:06:29  volume shutdown start
+04:06:29  volume shutdown end
+2023-05-21 04:07:21-0300 |    ON    | RP    | G780FXXUBFWD2 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [570]
+
+23/05/21 04:13:28
+reason : userrequested
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:344)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:444)
+	at com.android.server.statusbar.StatusBarManagerService.lambda$reboot$5(StatusBarManagerService.java:2234)
+	at com.android.server.statusbar.StatusBarManagerService.$r8$lambda$OwBHc8REiqmJuTXfrcUSjpBgn3s(Unknown Source:0)
+	at com.android.server.statusbar.StatusBarManagerService$$ExternalSyntheticLambda5.run(Unknown Source:4)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at com.android.server.SystemServer.run(SystemServer.java:1346)
+	at com.android.server.SystemServer.main(SystemServer.java:989)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1045)
+04:13:31  2023-05-21 04:13:31-0300 |  REBOOT  |       | REASON: userrequested
+04:13:31  terminating init service start
+04:13:32  terminating init service end
+04:13:32  volume shutdown start
+04:13:32  volume shutdown end
+2023-05-21 04:14:39-0300 |    ON    | RP    | G780FXXUBFWD2 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [571]
+
+2023-05-21 04:27:57-0300 |    ON    | MP    | G780FXXUBFWD2 / OFFSRC: - / ONSRC: - / RSTSTAT: SWRESET [575]
+
     # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
     restore-keys: # optional
 - name: Cache
